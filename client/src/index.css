@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply bg-websitebg font-mono
+  }
+
+  .icon-util {
+    @apply relative flex items-center justify-center w-12 h-12 mx-auto my-2 bg-transparent md:bg-primary cursor-pointer text-white rounded-3xl hover:bg-blue-600 hover:text-white
+    transition-all duration-200 ease-linear
+  }
+
+  .mobile-icon-util {
+    @apply relative flex items-center justify-center w-12 h-12 mx-auto my-2 bg-transparent cursor-pointer text-white rounded-3xl
+    transition-all duration-200 ease-linear
+  }
+
+  .icon-util-darkmode {
+    @apply relative flex items-center justify-center w-12 h-12 mx-auto my-2 bg-transparent cursor-pointer rounded-3xl
+    transition-all duration-100 ease-linear
+  }
+
+  .nav-list-item {
+    @apply cursor-pointer w-full h-16 flex justify-center items-center transition-all duration-200 ease-linear hover:bg-indigo-800
+  }
+
+  .active {
+    @apply bg-primary hover:bg-blue-600 w-full h-16 flex justify-center items-center
+  }
+
+  .tab {
+    @apply relative p-3 text-center outline-none cursor-pointer font-bold  hover:border-b-2 hover:border-white
+  }
+
+  .tab-active {
+    @apply text-primary border-primary border-b-2 hover:text-primary hover:border-primary
+  }
+
+  .content {
+    @apply hidden
+  }
+
+  .content-active {
+    @apply flex flex-col
+  }
+
+  {/* Pagination */}
+  .paginationButtons {
+    @apply w-fit h-10 list-none flex justify-center
+  }
+
+  .paginationButtons a {
+    @apply p-2 m-1 ml-0 rounded-md border-2 border-primary text-primary cursor-pointer hover:text-white hover:bg-primary bg-white
+  }
+
+  .previousButton {
+    @apply hidden md:inline
+  }
+
+  .nextButton {
+    @apply hidden md:inline
+  }
+
+  .paginationDisabled {
+
+  }
+
+  .paginationActive {
+
+  }
+
+  .paginationActive a {
+    @apply text-white bg-primary
+  }
+
+  .pokemon {
+    @apply px-1 py-0.5 flex flex-row justify-between items-center cursor-pointer hover:bg-indigo-500
+  }
+
+  .pokemon-active {
+    @apply px-1 py-0.5 flex flex-row justify-between items-center cursor-pointer bg-primary
+  }
+
+  .temp-button {
+    @apply p-2 bg-blue-500 shadow
+  }
+
+  .temp-class {
+    @apply text-2xl
+  }
+}
