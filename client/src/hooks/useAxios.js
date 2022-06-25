@@ -18,7 +18,7 @@ const useAxios = (url, options, query, pageNumber) => {
             setLoading(true)
             setError(false)
             // page: pageNumber
-            const res = await axios.get(url, {
+            await axios.get(url, {
                 headers: options.headers,
                 params: { query: query },
                 cancelToken: new axios.CancelToken(c => cancel = c)
@@ -42,7 +42,7 @@ const useAxios = (url, options, query, pageNumber) => {
         let cancel
         setLoading(true)
         setError(false)
-        const res = await axios.get(url, {
+        await axios.get(url, {
             headers: options.headers,
             params: { query: query, next: next },
             cancelToken: new axios.CancelToken(c => cancel = c)

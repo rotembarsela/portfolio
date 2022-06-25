@@ -8,7 +8,7 @@ const Items = ({ items, loading, selectedPokemon, setSelectedPokemon }) => {
                     {items.map(item => (
                         <li key={item.dexNo} name={item.name.toLowerCase()} className={`${selectedPokemon?.name === item.name ? 'pokemon-active' : 'pokemon'}`} onClick={() => setSelectedPokemon(item)}>
                             <p className='overflow-ellipsis overflow-hidden whitespace-nowrap'>{item.name}</p>
-                            <img src={item.iconImg} />
+                            <img src={item.iconImg} alt='image' />
                         </li>
                     ))}
                 </ul>
