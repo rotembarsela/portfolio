@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import IconUtil from '../utils/IconUtil'
-import { RiLock2Line, RiMenuLine, RiCloseLine } from 'react-icons/ri'
+import { RiMenuLine, RiCloseLine } from 'react-icons/ri'
 import { MdDarkMode, MdLightMode } from 'react-icons/md'
 import { NavLink } from 'react-router-dom'
 import MobileMenuIconUtil from '../utils/MobileMenuIconUtil'
