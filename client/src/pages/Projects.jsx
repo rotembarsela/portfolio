@@ -13,7 +13,7 @@ const Projects = () => {
                 sectionTitle={"List of my projects"}
             />
             <div className='flex flex-col'>
-                <div className='grid gap-3 mx-3 my-3 md:grid-cols-4 md:flex-row'>
+                <div className='grid gap-3 mx-3 my-3 md:grid-cols-4'>
                     {projectsData.map((project) => (
                         <ProjectCard key={project._id} project={project} />
                     ))}

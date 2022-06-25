@@ -4,6 +4,7 @@ import { RiLock2Line, RiMenuLine, RiCloseLine } from 'react-icons/ri'
 import { MdDarkMode, MdLightMode } from 'react-icons/md'
 import { NavLink } from 'react-router-dom'
 import MobileMenuIconUtil from '../utils/MobileMenuIconUtil'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
 const useOutsideClick = (ref, handler) => {
     useEffect(() => {
@@ -76,13 +77,33 @@ const Navbar = () => {
                                     Contact
                                 </NavLink>
                             </li>
+                            <li className='nav-list-item' >
+                                <div className='flex-row gap-5 mb-3 flex md:hidden'>
+                                    <a href='https://www.linkedin.com/in/rotembarsela/' target="_blank" rel="noopener noreferrer">
+                                        <FaLinkedin size={8} className='text-[#0A66C2] w-6 h-6 cursor-pointer' />
+                                    </a>
+                                    <a href='https://github.com/rbsPREET/portfolio' target="_blank" rel="noopener noreferrer">
+                                        <FaGithub size={8} className='text-[#171515] w-6 h-6 cursor-pointer' href='' target='_blank' />
+                                    </a>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                     {/* Bottom */}
                     <div className='mx-2 md:mx-0 md:my-2'>
-                        <span className='hidden md:block'>
+                        {/* UNDER DEVELOPMENT (BACKEND)
+                        <span className='hidden'>
                             <IconUtil icon={<RiLock2Line size={24} />} />
                         </span>
+                         */}
+                        <div className='flex-row gap-5 mb-3 hidden md:flex'>
+                            <a href='https://www.linkedin.com/in/rotembarsela/' target="_blank" rel="noopener noreferrer">
+                                <FaLinkedin size={24} className='text-[#0A66C2] w-8 h-8 cursor-pointer' />
+                            </a>
+                            <a href='https://github.com/rbsPREET/portfolio' target="_blank" rel="noopener noreferrer">
+                                <FaGithub size={24} className='text-[#171515] w-8 h-8 cursor-pointer' href='' target='_blank' />
+                            </a>
+                        </div>
                         <span className='md:hidden'>
                             {open ?
                                 <MobileMenuIconUtil icon={<RiCloseLine size={24} />} setOpen={setOpen} />

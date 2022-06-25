@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -17,6 +17,7 @@ const App = () => {
         <Route path='/playground' element={<Playground />} />
         <Route path='/contact' element={<Contact />} />
         {/* Private */}
+        <Route path='*' element={<Navigate to='/' replace />} />
       </Route>
     </Routes>
   );

@@ -15,7 +15,7 @@ const Home = () => {
             />
             {/* Body */}
             <div className='flex flex-row justify-between mx-3 my-2 text-white'>
-                <div className='flex flex-col items-start w-full h-full gap-5 md:w-1/2'>
+                <div className='flex flex-col items-start w-full h-full gap-6 md:w-1/2'>
                     {/* TODO: make it dynamic */}
                     <SectionUtil
                         sectionTitle={"About me"}
@@ -31,7 +31,7 @@ const Home = () => {
                     />
                     <SectionUtil
                         sectionTitle={"Portfolio Website"}
-                        sectionDescription={"React.js v18, React Router Dom v6, React-Paginate, Node.js, MongoDB, RapidAPI"}
+                        sectionDescription={"React.js v18, React Router Dom v6, React-Paginate, Node.js, MongoDB, RapidAPI, EmailJS"}
                     />
                 </div>
                 <div className='flex-col items-start hidden w-1/2 gap-3 md:flex'>
