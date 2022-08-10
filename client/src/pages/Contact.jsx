@@ -38,7 +38,7 @@ const Contact = () => {
                 sectionTitle={"Keep in touch with me 😉"}
             />
             <form ref={form} onSubmit={sendEmail}>
-                <div className='flex flex-row justify-center text-white w-full mt-20'>
+                <div className='flex flex-row justify-center items-center text-white w-full p-3 mt-10 md:mt-0 md:h-[calc(100vh-256px)]'>
                     <div className='flex flex-col gap-3 w-[90%] md:w-1/2'>
                         {success &&
                             <div className='bg-green-500 border rounded-lg flex justify-center items-center gap-3'>
