@@ -15,7 +15,7 @@ const Project = () => {
     useEffect(() => {
         if (!project)
             navigate('/projects', { replace: true })
-    }, [])
+    }, [navigate, project])
 
     return (
         project && (
