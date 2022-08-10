@@ -15,11 +15,11 @@ const Home = () => {
             />
             {/* Body */}
             <div className='flex flex-row justify-between mx-3 my-2 text-white'>
-                <div className='flex flex-col items-start w-full h-full gap-6 md:w-1/2'>
+                <div className='flex flex-col items-start w-full h-full gap-6 md:w-1/2 text-lg'>
                     {/* TODO: make it dynamic */}
                     <SectionUtil
                         sectionTitle={"About me"}
-                        sectionDescription={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sollicitudin nulla libero, non tincidunt elit pharetra eu. Vivamus non tortor eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."}
+                        sectionDescription={"Great team player with strong social skills along with the ability to work under pressure and learn independently. Highly motivated, fast learner with excellent problem-solving skills. Strong knowledge in the tech field and out of the box thinker."}
                     />
                     <SectionUtil
                         sectionTitle={"Knowledge"}

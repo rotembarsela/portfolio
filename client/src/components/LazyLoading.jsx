@@ -42,7 +42,7 @@ const LazyLoading = () => {
     return (
         <>
             <input className='w-full p-2 mb-2 text-black border-2 md:w-fit border-primary' placeholder='Search...' value={query} onChange={(e) => searchYouTube(e)} />
-            <div className='flex flex-col md:flex-row h-full w-full bg-navbg p-3'>
+            <div className='flex flex-row h-[84%] w-full bg-navbg p-3'>
                 <>
                     <div className='w-1/2 overflow-auto flex flex-col gap-2 font-semibold'>
                         {data.length === 0 ? <p className='h-full w-full'>Loading...</p> :
@@ -50,13 +50,13 @@ const LazyLoading = () => {
                                 {data?.map((ytItem, idx) => {
                                     if (data?.length === idx + 1) {
                                         return (
-                                            <div key={idx} ref={lastItemEleRef} className='flex flex-col cursor-pointer' onClick={() => setSelectedVideo(ytItem)}>
+                                            <div key={idx} ref={lastItemEleRef} className={`${selectedVideo?.video?.title === ytItem?.video?.title ? 'ytItem-active' : 'ytItem'}`} onClick={() => setSelectedVideo(ytItem)}>
                                                 <span className='flex-grow'>{ytItem?.video?.title}</span>
                                             </div>
                                         )
                                     } else {
                                         return (
-                                            <div key={idx} className='flex flex-col cursor-pointer hover:bg-primary' onClick={() => setSelectedVideo(ytItem)}>
+                                            <div key={idx} className={`${selectedVideo?.video?.title === ytItem?.video?.title ? 'ytItem-active' : 'ytItem'}`} onClick={() => setSelectedVideo(ytItem)}>
                                                 <span className='flex-grow'>{ytItem?.video?.title}</span>
                                             </div>
                                         )

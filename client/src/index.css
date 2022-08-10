@@ -76,11 +76,19 @@
   }
 
   .pokemon {
-    @apply px-1 py-0.5 flex flex-row justify-between items-center cursor-pointer hover:bg-indigo-500
+    @apply px-2 py-0.5 flex flex-row justify-between items-center cursor-pointer hover:bg-indigo-500
   }
 
   .pokemon-active {
-    @apply px-1 py-0.5 flex flex-row justify-between items-center cursor-pointer bg-primary
+    @apply px-2 py-0.5 flex flex-row justify-between items-center cursor-pointer bg-primary
+  }
+
+  .ytItem {
+    @apply flex flex-col p-2 cursor-pointer hover:bg-indigo-500
+  }
+
+  .ytItem-active {
+    @apply flex flex-col p-2 cursor-pointer bg-primary
   }
 
   .temp-button {

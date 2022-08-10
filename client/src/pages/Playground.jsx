@@ -19,8 +19,8 @@ const Playground = () => {
                 sectionTitle={"Displaying data from an API"}
             />
             <div className='flex flex-col p-2 space-y-3 text-white'>
-                <div className='flex flex-col'>
-                    <h3 className='text-md'>{`On this page I will fetch data from an public API using RapidAPI database storage and display it using Pagination || Lazy Loading approach.`}</h3>
+                <div className='flex flex-col text-lg'>
+                    <h3 className='text-md'>{`On this page I will fetch data from an public API using RapidAPI database storage and display it using Pagination || Infinite Loading approach.`}</h3>
                     <div className='flex flex-col md:flex-row gap-1 md:gap-2 md:items-center'>
                         <span className='underline-offset-2 underline text-primary font-bold'>Databases link:</span>
                         <a className='font-bold hover:underline underline-offset-2' href='https://rapidapi.com/mturchik/api/poke-info-api/' target="_blank" rel="noopener noreferrer">{`poke-info-api`}</a>
@@ -32,8 +32,8 @@ const Playground = () => {
                     <div className={toggleState === 'pagination' ? 'tab tab-active' : 'tab'} onClick={() => toggleTabs("pagination")}>
                         Pagination
                     </div>
-                    <div className={toggleState === 'lazyloading' ? 'tab tab-active' : 'tab'} onClick={() => toggleTabs("lazyloading")}>
-                        Lazy Loading
+                    <div className={toggleState === 'infiniteloading' ? 'tab tab-active' : 'tab'} onClick={() => toggleTabs("infiniteloading")}>
+                        Infinite Loading
                     </div>
                 </div>
                 {/* Pagination */}
@@ -41,7 +41,7 @@ const Playground = () => {
                     <Pagination />
                 </div>
                 {/* Lazy Loading */}
-                <div className={toggleState === 'lazyloading' ? 'content-active h-[70vh] md:h-[42vh]' : 'content'}>
+                <div className={toggleState === 'infiniteloading' ? 'content-active h-[70vh] md:h-[42vh]' : 'content'}>
                     <LazyLoading />
                 </div>
             </div>

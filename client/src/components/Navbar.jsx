@@ -42,7 +42,7 @@ const Navbar = () => {
                 <div ref={navRef} className='flex items-center justify-between h-full md:flex-col'>
                     {/* Top */}
                     <div className='mx-5 text-xl md:mx-0 md:my-3'>
-                        <div className='flex flex-row gap-2'>
+                        <div className='flex flex-row gap-2 hidden'>
                             {isDarkMode ?
                                 <>
                                     <IconUtil icon={<MdDarkMode size={24} color='gray' />} isDarkModeIcon setIsDarkMode={setIsDarkMode} />
