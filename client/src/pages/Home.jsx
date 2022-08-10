@@ -14,7 +14,7 @@ const Home = () => {
                 sectionTitle={"Fullstack Developer"}
             />
             {/* Body */}
-            <div className='flex flex-row justify-between mx-3 my-2 text-white'>
+            <div className='flex flex-row justify-between mx-3 py-3 text-white'>
                 <div className='flex flex-col items-start w-full h-full gap-6 md:w-1/2 text-lg'>
                     {/* TODO: make it dynamic */}
                     <SectionUtil

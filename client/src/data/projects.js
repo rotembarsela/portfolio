@@ -2,7 +2,7 @@ export const projectsData = [
     {
         _id: 1,
         title: "Admin-Dashboard",
-        description: "Share your own stories anonymously with other people",
+        description: "Display backend data on a nice UI Admin Dashboard, customable for every website",
         frontend: ["React", "TypeScript", "Tailwind CSS", "Cloudinary"],
         backend: ["Node.js", "Express", "MongoDB"],
         githubLink: "https://github.com/rbsPREET/admin-dashboard",
@@ -11,7 +11,7 @@ export const projectsData = [
     {
         _id: 2,
         title: "ShareWithUs",
-        description: "Share your own stories anonymously with other people dasdsa d asda s asdd sa dasdasdsa",
+        description: "Share your own stories anonymously with other people",
         frontend: ["React", "Material UI (MUI)", "Cloudinary"],
         backend: ["Node.js", "Express", "MongoDB"],
         githubLink: "https://github.com/rbsPREET/sharewithus",
@@ -20,7 +20,7 @@ export const projectsData = [
     {
         _id: 4,
         title: "Links - Instagram",
-        description: "Share your own stories anonymously with other people",
+        description: "Links Bio for Instagram or a Business",
         frontend: ["React", "Tailwind CSS", "Vanta JS"],
         githubLink: "https://github.com/rbsPREET/links",
         websiteLink: "https://rbslinks.netlify.app",
