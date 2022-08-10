@@ -1,7 +1,6 @@
 import React from 'react'
 
 const YouTubeDetails = ({ youtubeVideo }) => {
-    console.log(youtubeVideo)
     return (
         <div className='flex flex-col justify-around items-center w-full h-full p-2 '>
             <h2 className='text-xl'>Channel:<br />{youtubeVideo?.video?.channelName}</h2>

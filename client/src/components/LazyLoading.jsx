@@ -37,12 +37,10 @@ const LazyLoading = () => {
         setQuery(e.target.value)
     }
 
-    console.log(selectedVideo)
-
     return (
         <>
             <input className='w-full p-2 mb-2 text-black border-2 md:w-fit border-primary' placeholder='Search...' value={query} onChange={(e) => searchYouTube(e)} />
-            <div className='flex flex-row h-[84%] w-full bg-navbg p-3'>
+            <div className='flex flex-row h-full md:h-[84%] w-full bg-navbg p-3'>
                 <>
                     <div className='w-1/2 overflow-auto flex flex-col gap-2 font-semibold'>
                         {data.length === 0 ? <p className='h-full w-full'>Loading...</p> :

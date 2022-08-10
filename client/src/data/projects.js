@@ -3,32 +3,35 @@ export const projectsData = [
         _id: 1,
         title: "Admin-Dashboard",
         description: "Share your own stories anonymously with other people",
-        technologies: ["React", "Node.js", "MongoDB", "Cloudinary"],
-        link: "https://github.com/rbsPREET/sharewithus",
-        images: ["https://colibriwp.com/blog/wp-content/uploads/2018/07/banner-redimensionat.jpg", "https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/34%20of%20the%20Best%20Website%20Designs%20to%20Inspire%20You%20in%202022-Feb-05-2022-12-30-34-43-AM.jpeg?width=600&name=34%20of%20the%20Best%20Website%20Designs%20to%20Inspire%20You%20in%202022-Feb-05-2022-12-30-34-43-AM.jpeg"]
+        frontend: ["React", "TypeScript", "Tailwind CSS", "Cloudinary"],
+        backend: ["Node.js", "Express", "MongoDB"],
+        githubLink: "https://github.com/rbsPREET/admin-dashboard",
+        images: ["https://res.cloudinary.com/dvvqj0wwi/image/upload/v1660171068/portfolio/projects/admin-db1_hekt53.png", "https://res.cloudinary.com/dvvqj0wwi/image/upload/v1660171067/portfolio/projects/admin-db2_man1ns.png", "https://res.cloudinary.com/dvvqj0wwi/image/upload/v1660171067/portfolio/projects/admin-db-3_wckvsv.png"]
     },
     {
         _id: 2,
         title: "ShareWithUs",
-        description: "Share your own stories anonymously with other people",
-        technologies: ["Java", "CMD"],
-        link: "https://github.com/rbsPREET/sharewithus",
-        images: ["https://colibriwp.com/blog/wp-content/uploads/2018/07/banner-redimensionat.jpg", "https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/34%20of%20the%20Best%20Website%20Designs%20to%20Inspire%20You%20in%202022-Feb-05-2022-12-30-34-43-AM.jpeg?width=600&name=34%20of%20the%20Best%20Website%20Designs%20to%20Inspire%20You%20in%202022-Feb-05-2022-12-30-34-43-AM.jpeg"]
+        description: "Share your own stories anonymously with other people dasdsa d asda s asdd sa dasdasdsa",
+        frontend: ["React", "Material UI (MUI)", "Cloudinary"],
+        backend: ["Node.js", "Express", "MongoDB"],
+        githubLink: "https://github.com/rbsPREET/sharewithus",
+        images: ["https://res.cloudinary.com/dvvqj0wwi/image/upload/v1660171581/portfolio/projects/share1_phpclb.png", "https://res.cloudinary.com/dvvqj0wwi/image/upload/v1660171580/portfolio/projects/share3_ufaatv.png", "https://res.cloudinary.com/dvvqj0wwi/image/upload/v1660171580/portfolio/projects/share2_e5fyul.png"]
     },
     {
         _id: 4,
         title: "Links - Instagram",
         description: "Share your own stories anonymously with other people",
-        technologies: ["Java", "CMD"],
-        link: "https://rbslinks.netlify.app",
-        images: ["https://colibriwp.com/blog/wp-content/uploads/2018/07/banner-redimensionat.jpg", "https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/34%20of%20the%20Best%20Website%20Designs%20to%20Inspire%20You%20in%202022-Feb-05-2022-12-30-34-43-AM.jpeg?width=600&name=34%20of%20the%20Best%20Website%20Designs%20to%20Inspire%20You%20in%202022-Feb-05-2022-12-30-34-43-AM.jpeg"]
+        frontend: ["React", "Tailwind CSS", "Vanta JS"],
+        githubLink: "https://github.com/rbsPREET/links",
+        websiteLink: "https://rbslinks.netlify.app",
+        images: ["https://res.cloudinary.com/dvvqj0wwi/image/upload/v1660170352/portfolio/projects/links_igpi5g.png"]
     },
     {
         _id: 5,
         title: "TickTacToe",
         description: "Tick Tac Toe game on the console",
-        technologies: ["Java", "CMD"],
-        link: "https://github.com/rbsPREET/sharewithus",
-        images: ["https://blog.hubspot.com/hs-fs/hubfs/Google%20Drive%20Integration/34%20of%20the%20Best%20Website%20Designs%20to%20Inspire%20You%20in%202022-Feb-05-2022-12-30-34-43-AM.jpeg?width=600&name=34%20of%20the%20Best%20Website%20Designs%20to%20Inspire%20You%20in%202022-Feb-05-2022-12-30-34-43-AM.jpeg", "https://colibriwp.com/blog/wp-content/uploads/2018/07/banner-redimensionat.jpg"]
+        backend: ["Java", "CMD"],
+        githubLink: "https://github.com/rbsPREET/tic_tac_toe",
+        images: ["https://res.cloudinary.com/dvvqj0wwi/image/upload/v1660168112/portfolio/projects/ticktactoe2_vfp7qm.png", "https://res.cloudinary.com/dvvqj0wwi/image/upload/v1660168111/portfolio/projects/ticktactoe1_mwwqk9.png"]
     },
 ]

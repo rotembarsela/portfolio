@@ -31,7 +31,7 @@ const Home = () => {
                     />
                     <SectionUtil
                         sectionTitle={"Portfolio Website"}
-                        sectionDescription={"React.js v18, React Router Dom v6, React-Paginate, Node.js, MongoDB, RapidAPI, EmailJS"}
+                        sectionDescription={"React.js v18, React Router Dom v6, React-Paginate, Tailwind CSS, Node.js, MongoDB, RapidAPI, EmailJS, Cloudinary"}
                     />
                 </div>
                 <div className='flex-col items-start hidden w-1/2 gap-3 md:flex'>

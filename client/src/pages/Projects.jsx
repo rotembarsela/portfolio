@@ -6,7 +6,7 @@ import { projectsData } from '../data/projects'
 
 const Projects = () => {
     return (
-        <div className='w-screen h-full'>
+        <div className='w-full h-full'>
             <PageHeader
                 headerBgImage={ProjectsImage}
                 mainTitle={"Projects"}

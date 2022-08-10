@@ -42,7 +42,7 @@ const Navbar = () => {
                 <div ref={navRef} className='flex items-center justify-between h-full md:flex-col'>
                     {/* Top */}
                     <div className='mx-5 text-xl md:mx-0 md:my-3'>
-                        <div className='flex flex-row gap-2 hidden'>
+                        <div className='gap-2 hidden'>
                             {isDarkMode ?
                                 <>
                                     <IconUtil icon={<MdDarkMode size={24} color='gray' />} isDarkModeIcon setIsDarkMode={setIsDarkMode} />
@@ -77,7 +77,7 @@ const Navbar = () => {
                                     Contact
                                 </NavLink>
                             </li>
-                            <li className='nav-list-item' >
+                            <li className='flex justify-center items-center'>
                                 <div className='flex-row gap-5 mb-3 flex md:hidden'>
                                     <a href='https://www.linkedin.com/in/rotembarsela/' target="_blank" rel="noopener noreferrer">
                                         <FaLinkedin size={8} className='text-[#0A66C2] w-6 h-6 cursor-pointer' />

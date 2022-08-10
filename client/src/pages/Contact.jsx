@@ -27,7 +27,6 @@ const Contact = () => {
                 setSuccess(true)
             }, (error) => {
                 setError(true)
-                console.log(error.text);
             });
     };
 
